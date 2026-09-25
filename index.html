@@ -7,7 +7,38 @@
 
   <title>TradeMaster — Learn Trading</title>
 
+  <!-- =========================
+       META PIXEL CODE
+  ========================== -->
+
+  <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+
+  fbq('init', '1112040564929446');
+  fbq('track', 'PageView');
+  </script>
+
+  <noscript>
+    <img
+      height="1"
+      width="1"
+      style="display:none"
+      src="https://www.facebook.com/tr?id=1112040564929446&ev=PageView&noscript=1"
+    />
+  </noscript>
+
+  <!-- End Meta Pixel Code -->
+
+
   <style>
+
     * {
       margin: 0;
       padding: 0;
@@ -27,9 +58,10 @@
       color: #ffffff;
     }
 
+
     /* =========================
        TRADING BACKGROUND
-    ========================= */
+    ========================== */
 
     .background {
       position: fixed;
@@ -48,7 +80,10 @@
       background-repeat: no-repeat;
     }
 
-    /* Green glowing effect */
+
+    /* =========================
+       GREEN GLOW
+    ========================== */
 
     .glow {
       position: fixed;
@@ -59,6 +94,7 @@
       background: rgba(0, 255, 170, 0.12);
 
       filter: blur(120px);
+
       border-radius: 50%;
 
       top: 20%;
@@ -69,9 +105,10 @@
       z-index: -1;
     }
 
+
     /* =========================
        HERO SECTION
-    ========================= */
+    ========================== */
 
     .hero {
       width: 100%;
@@ -85,6 +122,7 @@
 
       padding: 30px;
     }
+
 
     .content {
       width: 100%;
@@ -105,9 +143,10 @@
         0 25px 80px rgba(0, 0, 0, 0.5);
     }
 
+
     /* =========================
        SMALL TITLE
-    ========================= */
+    ========================== */
 
     .tag {
       display: inline-block;
@@ -115,6 +154,7 @@
       color: #00ffb3;
 
       font-size: 13px;
+
       font-weight: bold;
 
       letter-spacing: 3px;
@@ -124,9 +164,10 @@
       text-transform: uppercase;
     }
 
+
     /* =========================
        MAIN HEADING
-    ========================= */
+    ========================== */
 
     h1 {
       font-size: clamp(45px, 7vw, 85px);
@@ -142,9 +183,10 @@
       color: #00ffb3;
     }
 
+
     /* =========================
        DESCRIPTION
-    ========================= */
+    ========================== */
 
     .description {
       color: #c5ccd5;
@@ -158,9 +200,10 @@
       margin: 0 auto 35px;
     }
 
+
     /* =========================
        JOIN NOW BUTTON
-    ========================= */
+    ========================== */
 
     .join-btn {
       display: inline-flex;
@@ -194,6 +237,7 @@
         box-shadow 0.25s ease;
     }
 
+
     .join-btn:hover {
       transform: translateY(-4px) scale(1.03);
 
@@ -204,13 +248,15 @@
         0 15px 35px rgba(0, 0, 0, 0.4);
     }
 
+
     .join-btn:active {
       transform: scale(0.98);
     }
 
+
     /* =========================
        MOBILE
-    ========================= */
+    ========================== */
 
     @media (max-width: 600px) {
 
@@ -242,8 +288,11 @@
         padding: 17px 25px;
       }
     }
+
   </style>
+
 </head>
+
 
 <body>
 
@@ -253,7 +302,11 @@
   <!-- Green Glow -->
   <div class="glow"></div>
 
-  <!-- Main Landing Page -->
+
+  <!-- =========================
+       LANDING PAGE
+  ========================== -->
+
   <main class="hero">
 
     <section class="content">
@@ -262,11 +315,13 @@
         Trading Education
       </div>
 
+
       <h1>
         Learn Trading
         <br>
         <span>Basics to Advanced</span>
       </h1>
+
 
       <p class="description">
         Master the markets, understand price action,
@@ -274,7 +329,11 @@
         you need to trade with confidence.
       </p>
 
-      <!-- TELEGRAM JOIN BUTTON -->
+
+      <!-- =========================
+           TELEGRAM JOIN BUTTON
+      ========================== -->
+
       <a
         href="https://t.me/+dwNTEW3xycYxZmRl"
         class="join-btn"
